@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+.trId{
+    height: 60px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
