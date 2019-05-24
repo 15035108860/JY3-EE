@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    top: 0px;
+}
+
+#contain {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #26A69A;
+}
+
+#top {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    height: 100%;
+    width: 13%;
+    background-color: #33CCCC;
+    position: absolute;
+    left: 52px;
+}
+
+#top span {
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.3;
+    position: absolute;
+    left: 278px;
+    top: 37px;
+}
+#content{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    top: 0px;
+}
+#login{
+    position: absolute;
+    right: 50px;
+    top: 117px;
+    height: 60%;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#loginForm{
+    width: 80%;
+    height: 90%;
+    margin-top: 30px;
+}
+#studentLoginWorld{
+    margin-top: 39px;
+    font-size: 30px;
+}
+#leftword{
+    position: absolute;
+    left: 50px;
+    top: 117px;
+    height: 60%;
+    width: 55%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.leftWord{
+    color: white;
+}
+#word01{
+    margin-top: 39px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+#word02{
+    margin-left: 30px;
+    margin-top: 67px;
+    font-size: 25px;
+}
+#word03{
+    margin-left: 30px;
+    margin-top: 105px;
+    font-size: 20px;
+}
